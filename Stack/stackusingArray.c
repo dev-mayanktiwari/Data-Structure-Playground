@@ -55,7 +55,7 @@ int pop(struct Stack *st)
     }
     else
     {
-        x = st->s[st->top];
+        x = st->s[st->top--];
     }
     return x;
 }
